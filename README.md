@@ -85,4 +85,4 @@ Then run the script:
 
 You will be prompted to enter your login/password for your Earthdata account. Once you enter the credentials correctly, the download should commence in the current directory. 
 
-<img src="images/fig12.png" width="900" alt="hi" class="inline"/>
+<img src="images/fig12.png" width="700" alt="hi" class="inline"/>
