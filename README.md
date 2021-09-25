@@ -24,11 +24,11 @@ You can get to the search tool here: https://search.earthdata.nasa.gov/search or
 
 In the top left corner of the webpage, type in the MODIS product name and a list of matching collections will appear to the right. Below is an example using the MOD13A3 product (monthly vegetation indices).
 
-<img src="images/fig1.png" width=500" alt="hi" class="inline"/>
+<img src="images/fig1.png" width="700" alt="hi" class="inline"/>
 
 Once you click on one of the matching collections, you should see a full list of all the product files. Below is what happens after we click on "MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V006" from the list of matching collections.
 
-<img src="images/fig2.png" width="500" alt="hi" class="inline"/>
+<img src="images/fig2.png" width="700" alt="hi" class="inline"/>
 
 We see from the example above that there are 75,538 "granules" (i.e., data files) for this particular collection of the MOD13A3 data product. In order to narrow this down to the desired spatial/temporal scale, we need to filter the results in the next step (Step 3).
 
