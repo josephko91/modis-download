@@ -43,7 +43,7 @@ Click "apply" and you should now see only 3,493 granules returned from the searc
 
 Next, you could apply a *spatial* filter if desired. One way to do this is to use the spatial extent selection tool (see below). 
 
-<img src="images/fig5.png" width="500" alt="hi" class="inline"/>
+<img src="images/fig5.png" width="300" alt="hi" class="inline"/>
 
 You can use one of the geometric selection tools on the map to visually select the area of interest. For example, here we use the Rectangle tool to select the Los Angeles basin. 
 
