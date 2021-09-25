@@ -35,5 +35,8 @@ We see from the example above that there are 75,538 "granules" (i.e., data files
 ## Step 3: Filter the results
 If you want the data for a particular *time period*, you can do this by either clicking on the small calendar icon, or using the "Temporal" filter tool under "Filter Granules" on the left side. For example, we can set the start and stop time such that only files for the year 2016 are selected (see below).
 
-<img src="images/fig3.png" width="300" alt="hi" class="inline"/>
+<img src="images/fig3.png" width="500" alt="hi" class="inline"/>
 
+Click "apply" and you should now see only 3,493 granules returned from the search results. 
+
+<img src="images/fig4.png" width="700" alt="hi" class="inline"/>
