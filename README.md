@@ -22,4 +22,5 @@ The next step is to use the Earthdata search tool to query for the subset of dat
 
 You can get to the search tool here: https://search.earthdata.nasa.gov/search or you can also get to it from the [Earthdata homepage](https://earthdata.nasa.gov/) by clicking "Find Data."
 
-In the top left corner of the page, type in the MODIS product name and a list of matching collections will appear to the right. 
+In the top left corner of the page, type in the MODIS product name and a list of matching collections will appear to the right. Below is an example, searching for the MOD13A3 product (monthly vegetation indices).
+<img src="images/fig1.png" width="700" alt="hi" class="inline"/>
