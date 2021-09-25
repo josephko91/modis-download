@@ -61,3 +61,11 @@ After applying a spatial and temporal filter for our MOD13A3 example, we see tha
 When you are happy with the filtering, click "Download All." A new panel will appear; click "Download Data" (see below).
 
 <img src="images/fig9.png" width="700" alt="hi" class="inline"/>
+
+You will then be re-directed to a Download Status page, where you have a couple of options to download the files. At this point, it is a good idea to check that the list of files is correct in case a bug in the system is generating an incorrect list of file URLs. We see below in our example that there are 12 granulaes, and from the file names we can see that the correct product (MOD13A3) and tile area (h08v05) are being used. 
+
+<img src="images/fig10.png" width="700" alt="hi" class="inline"/>
+
+If you only have a few files, it could make sense to manually download each file. If you have a substantial number of files, you will likely want to use the Download Script that is provided by the website. 
+
+<img src="images/fig11.png" width="700" alt="hi" class="inline"/>
