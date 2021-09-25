@@ -52,3 +52,8 @@ You can use one of the geometric selection tools on the map to visually select t
 (Tip: you can collapse/expand the search results panel to make the viewable area of the map larger.) 
 
 <img src="images/fig7.png" width="700" alt="hi" class="inline"/>
+
+## Step 4: Download the data
+After applying a spatial and temporal filter for our MOD13A3 example, we see that we are left with 12 granules. It's a good idea to check at this point whether or not the number of granules makes sense. Since the LA Basin is fully enclosed within a single tile area, and our data product (MOD13A3) is a monthly product; the final granule count of 12 makes sense. But for example, if the spatial extent of our area of interest was split between two MODIS tiles, we would've ended up with 24 granules instead. 
+
+<img src="images/fig8.png" width="700" alt="hi" class="inline"/>
