@@ -15,4 +15,8 @@ If you do not have a NASA Earthdata account, then you must first register [here]
 
 If you already created an account, [login](https://urs.earthdata.nasa.gov/).
 
-## Step 2: 
+## Step 2: Find the data you want
+The next step is to use the Earthdata search tool to query for the subset of data you want. 
+
+You can get to the search tool here: https://search.earthdata.nasa.gov/search or you can also get to it from the [Earthdata homepage](https://earthdata.nasa.gov/) by clicking "Find Data."
+
