@@ -40,3 +40,15 @@ If you want the data for a particular *time period*, you can do this by either c
 Click "apply" and you should now see only 3,493 granules returned from the search results. 
 
 <img src="images/fig4.png" width="700" alt="hi" class="inline"/>
+
+Next, you could apply a *spatial* filter if desired. One way to do this is to use the spatial extent selection tool (see below). 
+
+<img src="images/fig5.png" width="500" alt="hi" class="inline"/>
+
+You can use one of the geometric selection tools on the map to visually select the area of interest. For example, here we use the Rectangle tool to select the Los Angeles basin. 
+
+<img src="images/fig6.png" width="700" alt="hi" class="inline"/>
+
+(Tip: you can collapse/expand the search results panel to make the viewable area of the map larger.) 
+
+<img src="images/fig7.png" width="700" alt="hi" class="inline"/>
