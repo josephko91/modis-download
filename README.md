@@ -18,7 +18,7 @@ If you do not have a NASA Earthdata account, then you must first register [here]
 If you already created an account, [login](https://urs.earthdata.nasa.gov/).
 
 ## Step 2: Find the data you want
-The next step is to use the Earthdata search tool to query for the subset of data you want. 
+The next step is to use the Earthdata search tool to find the data product you want.
 
 You can get to the search tool here: https://search.earthdata.nasa.gov/search or you can also get to it from the [Earthdata homepage](https://earthdata.nasa.gov/) by clicking "Find Data."
 
@@ -29,3 +29,10 @@ In the top left corner of the webpage, type in the MODIS product name and a list
 Once you click on one of the matching collections, you should see a full list of all the product files. Below is what happens after we click on "MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V006" from the list of matching collections.
 
 <img src="images/fig2.png" width="700" alt="hi" class="inline"/>
+
+We see from the example above that there are 75,538 "granules" (i.e., data files) for this particular collection of the MOD13A3 data product. In order to narrow this down to the desired spatial/temporal scale, we need to filter the results in the next step (Step 3).
+
+## Step 3: Filter the results
+If you want the data for a particular *time period*, you can do this by either clicking on the small calendar icon, or using the "Temporal" filter tool under "Filter Granules" on the left side. For example, we can set the start and stop time such that only files for the year 2016 are selected (see below).
+
+<img src="images/fig3.png" width="700" alt="hi" class="inline"/>
