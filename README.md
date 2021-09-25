@@ -69,3 +69,20 @@ You will then be re-directed to a Download Status page, where you have a couple 
 If you only have a few files, it could make sense to manually download each file. If you have a substantial number of files, you will likely want to use the Download Script that is provided by the website. 
 
 <img src="images/fig11.png" width="900" alt="hi" class="inline"/>
+
+Instructions for both Linux and Windows environments are provided on the website for further details. Here we show how the examples files are downloaded within a LINUX environment. 
+
+First click "Save" and download the shell script file in your preferred directory. You will noticed the shell script file has a funny name. Rename it to "download.sh". 
+
+You must change the permissions of the file to run the shell script. First change the directory to where your file is located. Then execute:
+```
+chmod 777 download.sh
+```
+Then run the script: 
+```
+./download.sh
+```
+
+You will be prompted to enter your login/password for your Earthdata account. Once you enter the credentials correctly, the download should commence in the current directory. 
+
+<img src="images/fig12.png" width="900" alt="hi" class="inline"/>
