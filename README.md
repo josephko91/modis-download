@@ -1,4 +1,4 @@
-# modis-load
+# modis-download
 
 This repository contains instructions and examples of how to batch download MODIS files.
 
