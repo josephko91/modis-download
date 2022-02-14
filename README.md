@@ -53,7 +53,7 @@ You can use one of the geometric selection tools on the map to visually select t
 
 <img src="images/fig7.png" width="700" alt="hi" class="inline"/>
 
-## Step 4: Download the data
+## Step 4, Method 1: Download the data using NASA-provided script
 After applying a spatial and temporal filter for our MOD13A3 example, we see that we are left with 12 granules. It's a good idea to check at this point whether or not the number of granules makes sense. Since the LA Basin is fully enclosed within a single tile area, and our data product (MOD13A3) is a monthly product; the final granule count of 12 makes sense. But for example, if the spatial extent of our area of interest was split between two MODIS tiles, we would've ended up with 24 granules instead. 
 
 <img src="images/fig8.png" width="700" alt="hi" class="inline"/>
@@ -86,3 +86,34 @@ Then run the script:
 You will be prompted to enter your username and password for your Earthdata account. Once you enter the credentials correctly, the download should commence in the current directory. 
 
 <img src="images/fig12.png" width="700" alt="hi" class="inline"/>
+
+## Step 4, Method 2: Download the data using wget, curl, or aria2c
+For this method, you will need to save the list of URLs as a text file (see below), and then use your tool of choice (wget, curl, aria2c) to download the files. 
+
+<img src="images/fig13.png" width="600" alt="hi" class="inline"/>
+
+Before downloading, you need to modify the [.netrc file](https://www.gnu.org/software/inetutils/manual/html_node/The-_002enetrc-file.html) in your home directory to include your NASA Earthdata login information. 
+
+Your .netrc file should contain the following:
+```
+machine urs.earthdata.nasa.gov
+login [insert username]
+password [insert password]
+```
+Once you have the authentication information in your .netrc file, you should be able to use the tool of your choice to download the files.  Below is an example of how you might use aria2c. Assuming that you named the text file "urls.txt" and that you placed it in the current directory:
+
+```
+aria2c -i urls.txt -j8
+```
+
+This will download 8 files from "urls.txt" concurrently. This is helpful for downloading larger batches of files. 
+
+
+Examples of how to use curl or wget: 
+```
+xargs -n 1 curl -O < urls.txt
+```
+
+```
+wget -i urls.txt
+```
