@@ -106,7 +106,7 @@ Once you have the authentication information in your .netrc file, you should be 
 aria2c -i urls.txt -j8
 ```
 
-This will download 8 files from "urls.txt" concurrently. This is helpful for downloading larger batches of files. 
+The "-j8" flag indicates that 8 files will be downloaded concurrently. This is helpful for downloading larger batches of files. 
 
 
 Examples of how to use curl or wget: 
